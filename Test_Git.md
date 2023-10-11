@@ -11,4 +11,6 @@ git add .
 git commit -m "Add lesson3 md file"
 git push -u origin master
 
+Изменения от студента курса :d 
+
 ## Изменение в удаленном репозитории
