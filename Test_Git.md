@@ -1,14 +1,29 @@
-# Семинар 3
+# 1 семинар
 
+## Базовые команды
 
+- git init - создаем репозиторий в папке
+- git status - смотрим статус: неотслеживаемые файлы, несохраненные изменения и проч.
+- git add _file_name_ - начинаем отслеживать файл
+- git commit -m "message" - фиксируем изменения с комментарием
 
-## Команды
-git add .
-git init
-git remote add origin git@github.com:yvv4git/Lesson3.git
-git branch -M master
-git add .
-git commit -m "Add lesson3 md file"
-git push -u origin master
+**NB! Выполняется только после _git add_**
 
-## Изменение в удаленном репозитории
+- git commit -a -m "message" - то же, но можно не делать add
+- git checkout _4_numbers_ - возвращаемся к другому коммиту
+- git log - смотрим историю всех коммитов
+- git diff - смотрим изменения между 2 последними коммитами
+
+# 2 семинар
+
+## Ветки
+
+- git branch - выводим список всех веток
+- git branch _branch_name_ - создаем новую ветку
+- git merge _branch_name_ - сливаем вместе ветки
+
+**NB! Изменения добавляются в текущую ветку из ветки _branch_name_**
+
+- git checkout master - возвращаемся к последнему коммиту на главной ветке
+- git log --graph - красиво выводим коммиты в виде дерева
+- git branch -d _branch_name_ - удаляем ветку
