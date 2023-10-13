@@ -23,5 +23,8 @@ git push -u origin master
 *pull request* - команда для предложения изменений
 
 *git cd* - менять репозиторий
+<<<<<<< HEAD
 
 *cd* - change directory 
+=======
+>>>>>>> b0149051ec79a94c9955b4b268d77f71a2655315
