@@ -12,3 +12,8 @@ git commit -m "Add lesson3 md file"
 git push -u origin master
 
 ## Изменение в удаленном репозитории
+
+![Врум Врум](gelik.png)
+
+
+![Тут зимняя картинка](./gelik2.jpeg)
