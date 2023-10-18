@@ -14,3 +14,4 @@ git push -u origin master
 ## Изменение в удаленном репозитории
 git add 
 
+git init 
