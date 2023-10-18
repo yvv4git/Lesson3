@@ -15,3 +15,5 @@ git push -u origin master
 git add 
 
 git init 
+
+git config --global user.name
