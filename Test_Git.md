@@ -17,3 +17,4 @@ git add
 git init 
 
 git log 
+git config --global user.name
